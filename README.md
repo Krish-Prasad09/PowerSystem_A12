@@ -128,7 +128,7 @@ $$
 ```
 PowerSystem_A12/
 ├── 📄 README.md                            # Comprehensive interactive repository guide
-├── 📑 Assignment_12_Report.pdf              # Formal technical project report (12 pages)
+├── 📑 Report_Project12_240002031.pdf       # Formal technical project report (12 pages)
 ├── ⚙️ fault_classifier.m                   # Standalone relay classification function
 ├── 🧪 run_project_verification.m           # Automated 42-run test harness & confusion matrix
 ├── ⚡ power_network_model.slx              # 230 kV, 120 km Two-Bus Simscape physical grid model
@@ -143,7 +143,7 @@ PowerSystem_A12/
 
 | File | Type | Primary Purpose | How It Works |
 | :--- | :---: | :--- | :--- |
-| **`Assignment_12_Report.pdf`** | PDF Document | **Formal Project Report:** Complete 12-page report. | Contains full derivations, simulation parameters, comprehensive 42-case results table, oscilloscope waveforms, and confusion matrix. |
+| **`Report_Project12_240002031.pdf`** | PDF Document | **Formal Project Report:** Complete 12-page report. | Contains full derivations, simulation parameters, comprehensive 42-case results table, oscilloscope waveforms, and confusion matrix. |
 | **`fault_classifier.m`** | MATLAB Function | **Core Relay Brain:** Evaluates raw current matrix `I_abc` and returns fault type string. | Takes instantaneous currents, applies cycle-to-cycle detection, extracts pure fault cycle, executes DFT, Fortescue transform, and maps to angular sectors. |
 | **`power_network_model.slx`** | Simulink Model | **Physical Data Source:** Simscape Specialized Power Systems 230 kV grid. | Contains local Bus M, remote Bus N, two PI section line segments, Three-Phase Fault block, and 1 kHz CT current loggers. |
 | **`run_project_verification.m`** | MATLAB Script | **Automated Test Suite:** Runs all 42 Simulink cases and generates benchmark plots. | Automatically updates Simulink block parameters, executes simulations, feeds data to `fault_classifier`, logs performance, and exports Figures 1–5. |
