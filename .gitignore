@@ -5,11 +5,10 @@ slprj/
 *.log
 *.mhtml
 
-# Reports and temporary archives (excluded per user request)
+# Temporary archives and HTML reports
+*.html
+*.zip
 reports/
 reports_archive/
 Reports_Backup/
-*.pdf
-*Report*
-*Verification_Brief*
-*.zip
+formal_report/
