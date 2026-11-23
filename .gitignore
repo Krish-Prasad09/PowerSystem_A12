@@ -1,0 +1,15 @@
+# MATLAB / Simulink temporary and auto-save files
+*.asv
+*.slxc
+slprj/
+*.log
+*.mhtml
+
+# Reports and temporary archives (excluded per user request)
+reports/
+reports_archive/
+Reports_Backup/
+*.pdf
+*Report*
+*Verification_Brief*
+*.zip
